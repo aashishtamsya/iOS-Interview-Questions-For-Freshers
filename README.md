@@ -35,11 +35,11 @@ Created by Aashish Tamsya on 01/09/16.
 Copyright © 2016 Aashish Tamsya. All rights reserved.
 -->
 
-1.	How would you create your own custom view?
+1.	**How would you create your own custom view?**
 	*	By Subclassing the UIView class.
 	
-2.	What is App Bundle?
-	*	When you build your iOS app, Xcode packages it as a bundle. A bundle is a directory in the  le system that groups related resources together in one place. An iOS app bundle contains the app executable  le and supporting resource  les such as app icons, image  les, and localized content.
+2.	**What is App Bundle?**
+>	When you build your iOS app, Xcode packages it as a bundle. A bundle is a directory in the  le system that groups related resources together in one place. An iOS app bundle contains the app executable  le and supporting resource  les such as app icons, image  les, and localized content.
 
 
 ## Contribution
@@ -58,6 +58,6 @@ aashish.tamsya@gmail.com
 
 ## License
 
-The content of [*iOS Interview Questions & Answers*](https://github.com/aashishtamsya/iOS-Interview-Q-A-For-Freshers) itself is licensed under the [Creative Commons Attribution 3.0 license](https://creativecommons.org/licenses/by/3.0/us/deed.en_US), and the underlying source code used to format and display that content is licensed under the [MIT license](https://opensource.org/licenses/mit-license.php).
+The content of [*iOS Interview Questions & Answers*](https://github.com/aashishtamsya/iOS-Interview-Questions-For-Freshers) itself is licensed under the [Creative Commons Attribution 3.0 license](https://creativecommons.org/licenses/by/3.0/us/deed.en_US), and the underlying source code used to format and display that content is licensed under the [MIT license](https://opensource.org/licenses/mit-license.php).
 
 See the [LICENSE](LICENSE.md) file for more info.
