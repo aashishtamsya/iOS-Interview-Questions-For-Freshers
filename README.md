@@ -52,8 +52,7 @@ Copyright © 2016 Aashish Tamsya. All rights reserved.
 
 6.	**Explain retain counts.**
 >	Retain counts are the way in which memory is managed in Objective-C. When you create an object, it has a retain count of 1. When you send an object a retain message, its retain count is incremented by 1. When you send an object a release message, its retain count is decremented by 1. When you send an object a autorelease message, its retain count is decremented by 1 at some stage in the future. If an objectʼs retain count is reduced to 0, it is deallocated.
-
-![Retain Count Image](/Resources/memory_management.jpg)
+>	![Retain Count Image](/Resources/memory_management.jpg)
 
 7.	**Whats the difference between frame and bounds?**
 >	The frame of a view is the rectangle, expressed as a location (x,y) and size (width,height) relative to the superview it is contained within. The bounds of a view is the rectangle, expressed as a location (x,y) and size (width,height) relative to its own coordinate system (0,0).
