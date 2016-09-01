@@ -92,9 +92,9 @@ Copyright © 2016 Aashish Tamsya. All rights reserved.
 	[_variable release];
 	_variable = nil;
 	_variable = [object retain];
-	>	}```
-
-	>	How can you use it with @property? self.variable = object; When we are calling the above line, we actually call the setter like [self setVariable:object] and then the generated setter will do its job.
+	>	}
+	>	```
+	>	How can you use it with `@property` ? `self.variable = object;` When we are calling the above line, we actually call the setter like `[self setVariable: object]` and then the generated setter will do its job.
 
 
 14. **Multitasking support is available from which version?**
