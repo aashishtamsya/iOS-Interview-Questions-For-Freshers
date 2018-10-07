@@ -90,7 +90,7 @@ Copyright © 2016 Aashish Tamsya. All rights reserved.
 	>	```objective-c
 	>	if (_variable != object)
 	>	{
-	>            	[_variable release];
+	>		[_variable release];
 	>		_variable = nil;
 	>		_variable = [object retain];
 	>	}
