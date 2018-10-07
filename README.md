@@ -67,7 +67,8 @@ Copyright © 2016 Aashish Tamsya. All rights reserved.
 	>	-	**Not running State:** The app has not been launched or was running but was terminated by the system.	
 	>	-	**Inactive State:** The app is running in the foreground but is currently not receiving events. (It may be executing other code though.) An app usually stays in this state only brie y as it transitions to a different state. The only time it stays inactive for any period of time is when the user locks the screen or the system prompts the user to respond to some event, such as an incoming phone call or SMS message.
 	>	-	**Active State:** The app is running in the foreground and is receiving events. This will normal mode for foreground apps.
-	>	-	**Background State:** The app is in the background and executing code. Most apps enter this state brie y on their way to being suspended. However, an app that requests extra execution time may remain in this state for a period of time. In addition, an app being launched directly into the background enters this state instead of the inactive state. For information about how to execute code while in the background, see “Background Execution and Multitasking.”•
+	>	-	**Background State:** The app is in the background and executing code. Most apps enter this state brie y on their way to being suspended. However, an app that requests extra execution time may remain in this state for a period of time. In addition, an app being launched directly into the background enters this state instead of the inactive state. For information about how to execute code while in the background, see “Background Execution and Multitasking.”
+•
 	>	-	**Suspended State:** The app is in the background but is not executing code.The system moves apps to this state automatically and does not notify them before doing so. While suspended, an app remains in memory but does not execute any code. When a low-memory condition occurs, the system may purge suspended apps without notice to make more space for the foreground app.
 
 11. **Explain how the push notification works.**
@@ -100,7 +101,7 @@ Copyright © 2016 Aashish Tamsya. All rights reserved.
 14. **Multitasking support is available from which version?**
 	>	iOS 4.0.
 
-15. **How many bytes we can send to apple push noti cation server?**
+15. **How many bytes we can send to apple push-notifcation server?**
 
 	>	Earlier 256 bytes, as of now (from iOS 9 onwards) it has been increased to 2 MB.
 
